@@ -1,0 +1,25 @@
+com/ayotomisin/emergencyhelp/SecondFragment.java
+ com.ayotomisin.emergencyhelp.SecondFragment
+ com.ayotomisin.emergencyhelp.SecondFragment$1
+com/ayotomisin/emergencyhelp/databinding/ActivityContact2Binding.java
+ com.ayotomisin.emergencyhelp.databinding.ActivityContact2Binding
+com/ayotomisin/emergencyhelp/BuildConfig.java
+ com.ayotomisin.emergencyhelp.BuildConfig
+com/ayotomisin/emergencyhelp/databinding/ContentMainBinding.java
+ com.ayotomisin.emergencyhelp.databinding.ContentMainBinding
+com/ayotomisin/emergencyhelp/FirstFragment.java
+ com.ayotomisin.emergencyhelp.FirstFragment
+com/ayotomisin/emergencyhelp/databinding/FragmentSecondBinding.java
+ com.ayotomisin.emergencyhelp.databinding.FragmentSecondBinding
+com/ayotomisin/emergencyhelp/databinding/ActivityMainBinding.java
+ com.ayotomisin.emergencyhelp.databinding.ActivityMainBinding
+com/ayotomisin/emergencyhelp/databinding/ActivityContactBinding.java
+ com.ayotomisin.emergencyhelp.databinding.ActivityContactBinding
+com/ayotomisin/emergencyhelp/databinding/FragmentFirstBinding.java
+ com.ayotomisin.emergencyhelp.databinding.FragmentFirstBinding
+com/ayotomisin/emergencyhelp/ContactActivity.java
+ com.ayotomisin.emergencyhelp.ContactActivity
+ com.ayotomisin.emergencyhelp.ContactActivity$1
+com/ayotomisin/emergencyhelp/MainActivity.java
+ com.ayotomisin.emergencyhelp.MainActivity
+ com.ayotomisin.emergencyhelp.MainActivity$1
