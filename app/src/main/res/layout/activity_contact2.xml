@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactActivity">
+
+    <EditText
+        android:id="@+id/phone1"
+        android:layout_width="343dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="144dp"
+        android:ems="10"
+        android:hint="@string/hint"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/phone2"
+        android:layout_width="343dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="@string/hint"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="@+id/phone1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/phone1"
+        app:layout_constraintTop_toBottomOf="@+id/phone1" />
+
+    <EditText
+        android:id="@+id/phone3"
+        android:layout_width="344dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="@string/hint"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="@+id/phone2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/phone2"
+        app:layout_constraintTop_toBottomOf="@+id/phone2" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:background="@android:color/holo_blue_dark"
+        android:backgroundTint="@color/design_default_color_primary"
+        android:text="@string/save_num"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/phone3"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="@+id/phone3"
+        app:layout_constraintTop_toBottomOf="@+id/phone3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
